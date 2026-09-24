@@ -899,7 +899,7 @@ export default function HomePage() {
                       required
                       value={authDisplayName}
                       onChange={(e) => setAuthDisplayName(e.target.value)}
-                      placeholder="เช่น ชัยอนันต์ หรือ หัวตี้"
+                      placeholder="display name"
                       className="w-full pl-10 pr-4 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     />
                   </div>
@@ -917,7 +917,7 @@ export default function HomePage() {
                     required
                     value={authEmail}
                     onChange={(e) => setAuthEmail(e.target.value)}
-                    placeholder="chaianan-2001@hotmail.co.th"
+                    placeholder="example@example.com"
                     className="w-full pl-10 pr-4 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   />
                 </div>
@@ -1612,7 +1612,7 @@ export default function HomePage() {
                   required
                   value={profileDisplayName}
                   onChange={(e) => setProfileDisplayName(e.target.value)}
-                  placeholder="เช่น ชัยอนันต์ หรือ หัวตี้สายเปย์"
+                  placeholder="display name"
                   className="w-full px-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm"
                 />
                 <p className="text-[11px] text-slate-400 mt-1">ชื่อนี้จะนำมาแสดงแทน Email ที่มุมบนของเว็บ</p>
