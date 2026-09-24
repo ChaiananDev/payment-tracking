@@ -46,9 +46,9 @@ export default function HomePage() {
 
   // Login / Register Form State (เมื่อยังไม่ล็อกอิน)
   const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signin');
-  const [authEmail, setAuthEmail] = useState<string>('chaianan-2001@hotmail.co.th');
-  const [authPassword, setAuthPassword] = useState<string>('chaianan2984');
-  const [authDisplayName, setAuthDisplayName] = useState<string>('ชัยอนันต์');
+  const [authEmail, setAuthEmail] = useState<string>('');
+  const [authPassword, setAuthPassword] = useState<string>('');
+  const [authDisplayName, setAuthDisplayName] = useState<string>('');
   const [authSubmitting, setAuthSubmitting] = useState<boolean>(false);
   const [authError, setAuthError] = useState<string | null>(null);
   const [authSuccess, setAuthSuccess] = useState<string | null>(null);
